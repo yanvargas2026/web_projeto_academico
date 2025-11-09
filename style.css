@@ -1,0 +1,101 @@
+/* cores tons de café e creme */
+:root {
+--cor-fundo: rgba(243, 229, 171, 0.85);
+--cor-cafe: #6f4e37;
+--cor-destaque: #c8a97e;
+--cor-texto: #3b2f2f;
+}
+
+
+body {
+font-family: "Poppins", Arial, sans-serif;
+color: var(--cor-texto);
+margin: 0;
+padding: 0;
+line-height: 1.6;
+background-image: url("https://st2.depositphotos.com/5355656/7813/i/950/depositphotos_78138608-stock-photo-a-cup-of-cappuccino.jpg");
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+}
+
+
+.header-container,
+.footer-container,
+
+
+main {
+    background-color: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(3px);
+}
+
+header.header-container {
+background-color: rgba(111, 78, 55, 0.9);
+color: #fff;
+text-align: center;
+padding: 20px 0;
+border-bottom: 3px solid var(--cor-destaque);
+}
+
+
+header h1 {
+font-size: 1.8rem;
+}
+
+
+main {
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.descricao h2 {
+color: var(--cor-cafe);
+}
+
+
+.descricao ul {
+list-style: square;
+padding-left: 20px;
+}
+
+
+.imagem img {
+max-width: 600px;
+width: 100%;
+border-radius: 10px;
+box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+
+.btn-primary {
+background-color: var(--cor-cafe);
+border: none;
+}
+
+
+.btn-primary:hover {
+background-color: var(--cor-destaque);
+color: var(--cor-texto);
+}
+
+
+.btn-secondary {
+background-color: var(--cor-destaque);
+border: none;
+}
+
+
+.btn-secondary:hover {
+background-color: var(--cor-cafe);
+color: #fff;
+}
+
+
+.footer-container {
+background-color: rgba(111, 78, 55, 0.9);
+color: #fff;
+padding: 10px 0;
+border-top: 3px solid var(--cor-destaque);
+}
+
